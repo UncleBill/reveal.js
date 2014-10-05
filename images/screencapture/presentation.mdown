@@ -1,0 +1,28 @@
+## html
+    - 语义化
+        - ul/ol
+        - section
+        - a / label / input / dl-dt / table-th-tr
+    - 精简标签
+    - meta标签
+    - placeholder
+    - label-input鼠标点击文字就能选中
+    - 基本上是以上这些，还有要注意的是注释等等
+
+## css
+    - 可点击的样式
+        - 鼠标悬停效果
+        - 鼠标点击效果
+        - 状态class
+        - 设置
+            {
+                display:inline-block;
+                height:100%;
+                width:100%;
+            }
+
+    - 通用的class名必须作为子选择器（重载）
+        - 不能在img{ }添加过多的样式，特定的样式可以在.part1 img{ }里加
+    - css-sprite：http请求
+## 其他
+    - _PSD文件的“图层样式”可以折叠起来_。
